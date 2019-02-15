@@ -1,0 +1,10 @@
+language: cpp
+os: linux
+compiler: gcc
+
+sudo: true
+
+git:
+  quiet: true
+
+script: ./build.sh
